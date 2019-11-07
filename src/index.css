@@ -1,0 +1,43 @@
+/* @import '~antd/dist/antd.css'; */
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: #ccc;
+}
+a{
+    text-decoration: none;
+}
+.header{
+    height: 50px;
+    background: #444;
+}
+.header header{
+    width: 1400px;
+    line-height: 50px;
+    margin: 0 auto;
+}
+.header header a{
+    margin: 0 20px;
+    color: #fff;
+}
+.header img{
+    width: 120px;
+}
+
+/*content*/
+.content{
+    width: 1400px;
+    margin: 30px auto 0;
+}
+.left{
+    float: left;
+    width: 1095px;
+    background: #fff;   
+}
+.right{
+    float: right;
+    width: 290px;
+    height: 500px;
+}

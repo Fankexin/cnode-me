@@ -1,0 +1,40 @@
+.deng input{
+    border: 1px solid #ccc;
+    height: 20px;
+    width: 285px;
+    padding: 4px 6px;
+    margin-bottom: 20px;
+    margin-left: 50px;
+    font-size: 14px;
+    line-height: 20px;
+    color: #555;
+    border-radius: 4px;
+}
+.deng p{
+    width: 1075px;
+    line-height: 40px;
+    background: #f6f6f6;
+    padding-left:20px;
+    margin-bottom: 40px;
+}
+.deng span{
+    float: left;
+    width: 160px;
+    padding-top: 5px;
+    text-align: right;
+}
+.deng .aa{
+    display: inline-block;
+    width: 150px;
+    height: 40px;
+    margin-top: 5px;
+    margin-left: 280px;
+    background: #5bc0de;
+    color: #fff;
+    outline: 0;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    line-height: 40px;
+    margin-bottom: 40px;
+}

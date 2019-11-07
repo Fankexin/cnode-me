@@ -1,0 +1,136 @@
+img{
+    width: 30px;
+    height:30px;
+    border-radius: 3px;
+    max-width: 100%;
+    vertical-align: middle;
+}
+ul,li{
+    list-style: none;
+}
+.top{
+    padding: 10px;
+    background-color: #f6f6f6;
+    border-radius: 3px 3px 0 0;
+}
+.top a{
+    margin: 0 10px;
+    color: #80bd01;
+}
+.top .a{
+    background-color: #80bd01;
+    color: #fff;
+    padding: 3px 4px;
+    border-radius: 3px;
+}
+.line{
+    padding-right: 10px;
+    background: #fff;
+    border-top: 1px solid #f0f0f0;
+    padding: 10px 10px 10px 10px;
+    font-size: 14px;
+}
+.line:hover{
+    background: #f5f5f5;
+}
+.line a:visited{
+    color: #888;
+}
+.line a:hover{ 
+    text-decoration: underline;
+}
+.line a{
+    display: inline-block;
+    color:#333;
+    max-width: 70%;
+    font-size: 16px;
+    line-height: 30px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    vertical-align: middle;
+    white-space: nowrap;
+}
+.line span{
+    vertical-align: middle;
+}
+.line .little{
+    font-size: 10px;
+    color: #b4b4b4;
+}
+.line .big{
+    color: #9e78c0;
+}
+.line .num{
+    width: 70px;
+    display: inline-block;
+    text-align: center;
+}
+.line .gray{  
+    background-color: #e5e5e5;
+    color: #999;
+    padding: 2px 4px;
+    font-size: 12px;
+    margin-right: 5px;
+    border-radius: 3px
+}
+.line .green{  
+    background-color: #80bd01;
+    color: #fff;
+    padding: 2px 4px;
+    font-size: 12px;
+    margin-right: 5px;
+    border-radius: 3px;
+}
+.line .right-all{  
+    float: right;
+    color: #778087;
+    line-height: 30px;
+}
+.line .right-all img{
+    height: 18px;
+    width: 18px;
+    vertical-align: middle;
+    margin-right: .5em;
+    border-radius: 3px;
+}
+.right-all span{
+    text-align: right;
+    min-width: 50px;
+    display: inline-block;
+    white-space: nowrap;
+}
+.numbers li{
+    display: inline-block;
+    width: 35px;
+    height: 30px;
+    border: 0.5px solid #999;
+    line-height: 30px;
+    text-align: center;
+    font-size: 14px;
+    color: #999;
+}
+.numbers a{
+    color: #999;
+    width: 35px;
+    height: 30px;
+    display: inline-block;
+}
+.numbers li:first-child{
+    border-radius: 4px 0 0 4px;
+}
+.numbers li:last-child{
+    border-radius: 0 4px 4px 0;
+}
+.numbers li:hover{
+    background: #f5f5f5;
+}
+.numbers a:visited{
+    color: #999;
+    background: #f5f5f5;
+}
+.numbers a:focus{
+    color: #000;
+}
+.numbers{
+    padding: 10px;
+}

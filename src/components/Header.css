@@ -1,0 +1,76 @@
+.search{
+    background: url(https://static2.cnodejs.org/public/images/search.e53b380a.hashed.png) 4px 4px no-repeat #888;
+    width: 230px;
+    height: 20px;
+    padding: 3px 5px 3px 22px;
+    color: #666;
+    border: 0;
+    margin-top: 2px;
+    margin-bottom: 0;
+    margin-left: 15px;
+    font-size: 13px;
+    font-weight: 400;
+    border-radius: 15px;
+}
+.search:focus{
+    background: url(https://static2.cnodejs.org/public/images/search.e53b380a.hashed.png) 4px 4px no-repeat #fff;
+    outline: 0;
+}
+
+.inner{
+    width: 260px;
+    height: 85px;
+    background: #fff;
+    padding: 15px;
+    border-radius: 0 0 3px 3px;
+}
+.inner p{
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+.inner span{
+    font-size: 13px;
+}
+.inner button{
+    width: 150px;
+    height: 40px;
+    margin-top: 5px;
+    background: #5bc0de;
+    color: #fff;
+    outline: 0;
+    border: none;
+    border-radius: 5px;
+}
+.images{
+    margin-top: 15px;
+    width: 270px;
+    background: #fff;
+    padding: 0 10px 10px;
+}
+.images img{
+    width: 270px;
+    height: 65px;
+    margin-top:10px;
+}
+.two{
+    width: 290px;
+    margin-top: 15px;
+    background: #fff;
+}
+.two span{
+    display: inline-block;
+    width: 270px;
+    line-height: 40px;
+    background: #f6f6f6;
+    padding-left: 20px;
+}
+.two img{
+    width: 200px;
+    height: 200px;
+    margin: 10px 0 0 45px;
+}
+.two p{
+    color: #778087;
+    text-align: center;
+    line-height: 40px;
+}

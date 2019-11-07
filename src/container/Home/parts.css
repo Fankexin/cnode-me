@@ -1,0 +1,11 @@
+.pad{
+    padding:20px ;
+}
+.title{
+    border-bottom:1px solid gray;
+    margin-top: 10px;
+    padding-bottom: 10px;
+}
+.title span::before{
+    content: "•";
+}
